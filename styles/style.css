@@ -282,5 +282,13 @@ nav a {
         display: none;
     }
 
+    .card-container {
+        flex-direction: column;
+    }
+
+    .nav-arrow {
+        display: none;
+    }
+
 
 }
