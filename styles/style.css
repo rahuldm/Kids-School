@@ -224,11 +224,9 @@ nav a {
 
 .nav-circle {
     display: flex;
-
     justify-content: center;
-
     align-items: center;
-    max-width: 60px;
+    width: 60px;
     height: 60px;
     border-radius: 30px;
     background: rgb(254, 163, 1);
@@ -270,7 +268,10 @@ nav a {
     font-size: 1.5rem;
     font-weight: 700;
     margin-left: 38px;
-    margin-bottom: 51px;
+    margin-bottom: 31px;
+    transform: translate(0px, -20px);
+
+
 }
 
 .stories-descriptiom {
@@ -317,7 +318,7 @@ nav a {
     width: 174px;
     height: 47px;
     border: none;
-    transform: translate(-28px, -30px);
+    transform: translate(-38px, -30px);
 
 }
 
@@ -333,8 +334,13 @@ nav a {
     margin-bottom: 60px;
 }
 
-
-
+/* 
+footer .kids-footer {
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 519px;
+    background: rgb(1, 172, 253);
+} */
 
 
 
@@ -390,6 +396,19 @@ nav a {
 
     .nav-arrow {
         display: none;
+    }
+
+    .stories-big-card {
+        display: none;
+    }
+
+    .stories-img {
+        max-width: 100%;
+    }
+
+    .mini-stories-container {
+        grid-template-columns: repeat(2, 1fr);
+
     }
 
 
