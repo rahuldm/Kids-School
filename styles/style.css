@@ -133,6 +133,10 @@ nav a {
 
 /* standard curriculum */
 .standard-curri {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     max-width: 1440px;
     margin: 0 auto;
     background-image: url(../assets/bg.png);
@@ -193,6 +197,41 @@ nav a {
     border-radius: 18.86px;
     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
     background: linear-gradient(180.00deg, rgb(238, 225, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+
+.curri-title {
+    color: rgb(32, 32, 32);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.curri-subtitle {
+    color: rgb(128, 128, 128);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.curri-readmore {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.nav-arrow {
+    margin-top: 80px;
+    gap: 10px;
+    margin-bottom: 60px;
+}
+
+.nav-circle {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background: rgb(254, 163, 1);
 }
 
 
