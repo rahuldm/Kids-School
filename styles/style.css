@@ -58,6 +58,15 @@
     border: none;
 }
 
+.btn-primary-2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    border-radius: 12px;
+    width: 197px;
+    height: 50px;
+    border: none;
+}
+
 
 /* navbar styles */
 .nav-logo img {
@@ -102,11 +111,14 @@ nav a {
 }
 
 /* BANNER SECTION    */
-.banner {}
+.banner {
+    align-items: center;
+    justify-content: space-between;
+}
 
 .banner-content {
-    width: 640px;
-    margin-right: 50px;
+    max-width: 640px;
+
 }
 
 .banner-title {
@@ -131,7 +143,6 @@ nav a {
 
     }
 
-
     .nav-logo span,
     .btn-primary,
     .navbar-items {
@@ -141,5 +152,32 @@ nav a {
     .hamburger-menu {
         display: initial;
     }
+
+    .banner {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner img {
+        width: 100%;
+    }
+
+    .banner-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .banner-title {
+        font-size: 2rem;
+    }
+
+    .banner-content .hide {
+        display: none;
+    }
+
 
 }
