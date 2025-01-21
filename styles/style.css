@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
+
+
 .quicksand {
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
@@ -114,11 +116,12 @@ nav a {
 .school-marquee {
     max-width: 1200px;
     margin: 0 auto;
+    font-weight: 600;
     display: block;
-    text-align: center;
     font-size: 1.5rem;
-    color: rgb(41, 35, 30);
+    color: rgba(82, 78, 76, 0.767);
 }
+
 
 
 
@@ -191,6 +194,7 @@ nav a {
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 40px 40px;
     max-width: 367px;
     height: 476px;
     box-sizing: border-box;
@@ -205,6 +209,7 @@ nav a {
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 40px 40px;
     max-width: 367px;
     height: 476px;
     box-sizing: border-box;
@@ -227,6 +232,7 @@ nav a {
 }
 
 .curri-readmore {
+    margin-top: 40px;
     font-size: 1rem;
     font-weight: 700;
 }
@@ -245,6 +251,10 @@ nav a {
     height: 60px;
     border-radius: 30px;
     background: rgb(254, 163, 1);
+}
+
+.nav-circle:hover {
+    background: rgb(114, 111, 106);
 }
 
 /* our stories section */
@@ -466,7 +476,15 @@ nav a {
     }
 
     .card-container {
+
         flex-direction: column;
+    }
+
+    .card-item1,
+    .card-item2,
+    .card-item3 {
+        width: 98%;
+
     }
 
     .nav-arrow {
