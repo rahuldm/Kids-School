@@ -83,12 +83,13 @@ nav a {
     text-decoration: none;
 }
 
-.navbar,
-.banner {
+.navbar {
+
     max-width: 1440px;
     margin: 20px auto;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+
 }
 
 .nav-logo {
@@ -110,14 +111,19 @@ nav a {
     font-weight: 500;
 }
 
+
+
 /* BANNER SECTION    */
 .banner {
+    max-width: 1440px;
+    margin: 20px auto;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .banner-content {
     max-width: 640px;
+    margin-right: 50px;
 
 }
 
@@ -346,7 +352,7 @@ footer .kids-footer {
 
 
 /* responsive  */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
     .navbar {
         justify-content: space-between;
         border-bottom: 0.5px solid rgb(254, 163, 1);
@@ -380,6 +386,7 @@ footer .kids-footer {
         align-items: center;
         justify-content: center;
         text-align: center;
+        margin: 0 auto;
     }
 
     .banner-title {
@@ -409,6 +416,24 @@ footer .kids-footer {
     .mini-stories-container {
         grid-template-columns: repeat(2, 1fr);
 
+    }
+
+    .stories-card {
+        max-width: 200px;
+        height: 230px;
+    }
+
+    .stories-btn {
+        width: 130px;
+        height: 38px;
+        font-size: 0.65rem;
+        transform: translate(-25px, -25px);
+    }
+
+    .stories-title {
+        font-size: 0.65rem;
+        margin: 0px 18px;
+        transform: translate(0px, -7px);
     }
 
 
