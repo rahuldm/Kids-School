@@ -535,5 +535,12 @@ nav a {
         margin-bottom: 60px;
     }
 
+    .footer-subtext,
+    .about-school,
+    .social-logo {
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+
 
 }
