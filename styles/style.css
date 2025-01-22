@@ -219,6 +219,11 @@ nav a {
     background: linear-gradient(180.00deg, rgb(238, 225, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
 }
 
+.curri-img {
+    width: 138px;
+    height: 138px;
+}
+
 .curri-title {
     color: rgb(32, 32, 32);
     font-size: 1.5rem;
@@ -536,11 +541,15 @@ nav a {
     }
 
     .footer-subtext,
-    .about-school,
-    .social-logo {
+    .about-school {
         margin-left: 10px;
         margin-right: 20px;
     }
+
+    .social-logo {
+        margin-left: 10px;
+    }
+
 
 
 }
